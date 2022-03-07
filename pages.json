@@ -1,0 +1,424 @@
+{
+	"pages" : [
+	    {
+	        "path" : "pages/tabber/wallet/wallet",
+	        "style" : {
+	            "navigationBarTitleText" : "资产",
+	            "enablePullDownRefresh" : false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+	        }
+	    }
+	    ,{
+            "path" : "pages/tabber/node/node",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "验证节点",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabber/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地址本",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/shop/shop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创世节点创建",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/chain/chain",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "跨链桥",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/plan/plan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "共识计划",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/about/about",
+            "style" :                                                                                     
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/user/set/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "系统设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/choose/choose",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择钱包类型",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/create/create",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/import/import",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "导入钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/backupTips/backupTips",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "备份钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/backupRecord/backupRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "备份助记词",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/backupWord/backupWord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "备份助记词",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/myWallet/myWallet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的钱包",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/walletInfo/walletInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "钱包详情",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/myWallet/setPassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/importKey/importKey",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "导出私钥",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/address/addAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新建联系人",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/punDeal/punDeal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "交易记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/punCollection/punCollection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收款",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/transferPun/transferPun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "转账",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/transferInfo/transferInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "交易详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/about/sla/sla",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/dapp/dapp",
+            "style" :                                                                                
+            {
+                "navigationBarTitleText": "Pancakeswap",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/shop/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/entrust/entrust",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "节点委托",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": {  
+						"backgroundColor":"#007BFF",
+						"titleColor": "#FFFFFF"
+					}  
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/present/present",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "当前地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/node/myEntrust/myEntrust",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的委托",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": {  
+						"backgroundColor":"#007BFF",
+						"titleColor": "#FFFFFF"
+					}  
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/pledge/pledge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "PPOS质押",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/pledgeRecord/pledgeRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "质押记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/entrustRecord/entrustRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "委托记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/receiveRecord/receiveRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "领取记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/mining/mining",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "节点挖矿 ",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": {  
+						"backgroundColor":"#284bcd",
+						"titleColor": "#FFFFFF"
+					}  
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/receiveRecord/recordPledge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "质押领取记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/receiveRecord/recordEntrust",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "委托领取记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/node/receiveRecord/recordMonetary",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "产币领取记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wallet/createWallet/createWallet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建引导",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+            
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "PUN",
+        "navigationBarBackgroundColor" : "#FFFFFF",
+        "backgroundColor" : "#FFFFFF",
+		"app-plus": {
+			"bounce": "none" //关闭窗口回弹效果
+		}
+    },
+	"tabBar":{
+		"color":"#666666",
+		"selectedColor":"#2979ff",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list":[
+			{
+				"pagePath":"pages/tabber/wallet/wallet",
+				"iconPath":"static/tabbar/icon-wallet.png",
+				"selectedIconPath":"static/tabbar/icon-wallet-on.png",
+				"text":"资产"
+			},
+			{
+				"pagePath":"pages/tabber/node/node",
+				"iconPath":"static/tabbar/icon-node.png",
+				"selectedIconPath":"static/tabbar/icon-node-on.png",
+				"text":"节点"
+			},
+			{
+				"pagePath":"pages/tabber/user/user",
+				"iconPath":"static/tabbar/icon-user.png",
+				"selectedIconPath":"static/tabbar/icon-user-on.png",
+				"text":"我的"
+			}
+		]
+	}
+    
+}
